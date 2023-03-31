@@ -207,10 +207,10 @@ footer {
     background-color: var(--bg-color);
     flex-direction: column;
     top: 86px;
-    left: 10%;
-    width: 80%;
+    left: 50%;
+    width: 60%;
     text-align: center;
-    transform: translateX(120%);
+    transform: translateX(150%);
     transition: transform 0.5s ease-in;
   }
 
@@ -265,13 +265,5 @@ footer {
 
   .bio {
     width: 18.3rem;
-  }
-
-  .project-container {
-    width: 17.875rem;
-  }
-
-  .contact-form-container {
-    max-width: 17.75rem;
   }
 } 
