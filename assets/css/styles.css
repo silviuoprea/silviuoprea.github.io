@@ -172,3 +172,11 @@ nav ul li {
   padding: 15px;
   margin: 5px;
 }
+
+/* footer */ 
+.footer {
+  background-color: var(--bg-color);
+  padding: 1.25rem;
+  text-align: center;
+  margin: 2rem 0 0;
+}
