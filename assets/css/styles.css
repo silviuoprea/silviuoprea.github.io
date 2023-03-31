@@ -158,8 +158,13 @@ nav ul li {
   color: #8c52ff;
 }
 
-.skill-header {
+.activity-header {
   margin-bottom: 1rem;
+  max-width: 68.75rem;
+  margin: auto;
+  text-align: center;
+  margin-top: 2.5rem;
+  color: #8c52ff;
 }
 
 .skills-wrapper img {
@@ -191,6 +196,14 @@ nav ul li {
 .socicon {
   width: 2rem;
   height: 2rem;
+}
+
+/* github activity */
+.activity-wrapper {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  max-width: 100%;
 }
 
 /* footer */ 
@@ -231,6 +244,12 @@ footer {
   .burger-menu {
     display: block;
   }
+
+/* github activity */
+.activity-wrapper {
+  display: flex;
+  justify-content: center;transform: scale(0.7, 0.7);
+}
 
   nav ul.show {
     transform: translateX(0);
@@ -277,4 +296,11 @@ footer {
   .bio {
     width: 18.3rem;
   }
+
+/* github activity */
+.activity-wrapper {
+  display: flex;
+  justify-content: center;
+  transform: scale(0.5, 0.5);
+}
 } 
